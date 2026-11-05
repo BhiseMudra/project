@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Waste Awareness</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">♻️ E-Waste Awareness</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#effects">Effects</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#tips">Tips</a>
+        </div>
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h1>Give Your E-Waste<br>A Second Life</h1>
+
+            <p>
+                Learn how electronic waste affects our environment
+                and discover simple ways to reduce, reuse and recycle it.
+            </p>
+
+            <button onclick="showMessage()">
+                Learn More ♻️
+            </button>
+
+        </div>
+
+        <div class="hero-icon">
+            ♻️
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2>What is E-Waste?</h2>
+
+        <p class="section-text">
+            E-waste means discarded electrical and electronic devices.
+            It includes old computers, mobile phones, televisions,
+            batteries, chargers and other electronic equipment.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>Mobile Phones</h3>
+                <p>
+                    Old and unused smartphones can become electronic waste.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Computers</h3>
+                <p>
+                    Old laptops, desktops and computer parts contribute to e-waste.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🔋</div>
+                <h3>Batteries</h3>
+                <p>
+                    Batteries contain materials that can harm the environment.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Effects Section -->
+    <section id="effects">
+
+        <h2>Effects of E-Waste</h2>
+
+        <div class="effects-container">
+
+            <div class="effect">
+                <span>🌱</span>
+                <h3>Soil Pollution</h3>
+                <p>
+                    Harmful chemicals from electronic waste can contaminate soil.
+                </p>
+            </div>
+
+            <div class="effect">
+                <span>💧</span>
+                <h3>Water Pollution</h3>
+                <p>
+                    Toxic substances can enter rivers and groundwater.
+                </p>
+            </div>
+
+            <div class="effect">
+                <span>🌫️</span>
+                <h3>Air Pollution</h3>
+                <p>
+                    Burning electronic waste can release harmful gases.
+                </p>
+            </div>
+
+            <div class="effect">
+                <span>👨‍⚕️</span>
+                <h3>Health Problems</h3>
+                <p>
+                    Exposure to toxic substances may affect human health.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Solutions Section -->
+    <section id="solutions">
+
+        <h2>How Can We Reduce E-Waste?</h2>
+
+        <div class="solution-grid">
+
+            <div class="solution">
+                <h3>♻️ Recycle</h3>
+                <p>
+                    Send unwanted electronics to authorized recycling centres.
+                </p>
+            </div>
+
+            <div class="solution">
+                <h3>🔧 Repair</h3>
+                <p>
+                    Repair electronic devices instead of throwing them away.
+                </p>
+            </div>
+
+            <div class="solution">
+                <h3>🔄 Reuse</h3>
+                <p>
+                    Donate or reuse working electronic devices.
+                </p>
+            </div>
+
+            <div class="solution">
+                <h3>🛒 Responsible Buying</h3>
+                <p>
+                    Buy durable products and avoid unnecessary upgrades.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Tips Section -->
+    <section id="tips">
+
+        <h2>Simple E-Waste Tips</h2>
+
+        <div class="tips-box">
+
+            <p>✅ Do not throw electronics in regular garbage.</p>
+
+            <p>✅ Donate working electronic devices.</p>
+
+            <p>✅ Repair devices whenever possible.</p>
+
+            <p>✅ Remove personal data before recycling devices.</p>
+
+            <p>✅ Use authorized e-waste collection centres.</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+
+        <h2>Test Your Knowledge 🧠</h2>
+
+        <p>Which of the following is an example of e-waste?</p>
+
+        <button onclick="checkAnswer(false)">🍎 Apple</button>
+
+        <button onclick="checkAnswer(true)">📱 Old Mobile Phone</button>
+
+        <button onclick="checkAnswer(false)">📚 Book</button>
+
+        <p id="quiz-result"></p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>♻️ E-Waste Awareness</h3>
+
+        <p>
+            Small actions today can create a cleaner tomorrow.
+        </p>
+
+        <p>
+            © 2026 E-Waste Awareness Project
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
